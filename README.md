@@ -11,18 +11,14 @@ and implementation brief.
 
 ## Install
 
-Download the installer for your platform from [GitHub Releases](https://github.com/ngominhtrungcmag/RedactPad/releases).
+Download `RedactPad_<version>_aarch64.dmg` from [GitHub Releases](https://github.com/ngominhtrungcmag/RedactPad/releases).
 
-- **macOS** — Choose `*_aarch64.dmg` for Apple Silicon or `*_x64.dmg`
-  for Intel. Open the disk image and drag RedactPad to Applications.
-- **Windows** — Run `*-setup.exe`.
-- **Linux** — Install the `.deb` on Debian or Ubuntu, or make the
-  `.AppImage` executable and run it.
+- **macOS on Apple silicon** — Open the disk image and drag RedactPad to Applications.
 
 Builds are currently unsigned. On macOS, right-click RedactPad in
 Applications and choose **Open** if Gatekeeper offers that option, or run
 `xattr -dr com.apple.quarantine /Applications/RedactPad.app` and open
-the app. If Windows SmartScreen appears, choose **More info** › **Run anyway**.
+the app.
 
 ## Releasing
 
