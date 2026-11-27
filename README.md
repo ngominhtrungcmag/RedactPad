@@ -9,6 +9,29 @@ The v0.1 target is macOS on Apple silicon (ARM64), built with Tauri 2,
 Rust, and React 19. This repository currently contains the MVP design
 and implementation brief.
 
+## Install
+
+Download the installer for your platform from [GitHub Releases](https://github.com/ngominhtrungcmag/RedactPad/releases).
+
+- **macOS** — Choose `*_aarch64.dmg` for Apple Silicon or `*_x64.dmg`
+  for Intel. Open the disk image and drag RedactPad to Applications.
+- **Windows** — Run `*-setup.exe`.
+- **Linux** — Install the `.deb` on Debian or Ubuntu, or make the
+  `.AppImage` executable and run it.
+
+Builds are currently unsigned. On macOS, right-click RedactPad in
+Applications and choose **Open** if Gatekeeper offers that option, or run
+`xattr -dr com.apple.quarantine /Applications/RedactPad.app` and open
+the app. If Windows SmartScreen appears, choose **More info** › **Run anyway**.
+
+## Releasing
+
+Bump the version in `src-tauri/tauri.conf.json`, `src-tauri/Cargo.toml`,
+and `package.json`. Update `src-tauri/Cargo.lock` to match the Rust
+package version. Once the version changes are on `main`, run
+`git tag vX.Y.Z && git push origin vX.Y.Z` on that commit. Review the
+draft release and its installers, then publish it.
+
 ## The 10-second loop
 
 1. Paste a snippet into the Text Workbench, or drop a `.log` or `.txt`
