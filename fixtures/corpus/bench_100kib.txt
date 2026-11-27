@@ -1,0 +1,2605 @@
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+Ticket RP-104 | Tiếng Việt 🔐 — chuyển tiếp
+Contact: fixture@example.test
+Phone: (202) 555-0107
+Build: v2.4.0-rc.1+build.9
+2026-11-27T08:15:30Z INFO request 00000000-0000-4000-8000-000000000001
+Authorization: Bearer syntheticOnly_0123456789
+# ローカル config
+password = "never-issued-fixture"
+DATABASE_URL=postgres://fixture:fake-password@db.example.test:5432/app
+api_key=sk_live_FAKEfixture0FAKEfixture0
+Commit: 06cd5e5c4ccab49aa353052ab20e2ce9c69007b0
+
+INFO synthetic benchmark footer dry-run archive fixture dry-run archive fixture dry-run archive fixture dry-run archive fixture dry-run archive fixture dry-run archive fixture dry-run archive 
