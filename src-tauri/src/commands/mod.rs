@@ -133,3 +133,16 @@ pub fn copy_redacted_text(
 
 #[cfg(target_os = "macos")]
 pub mod scrubber;
+
+#[tauri::command]
+pub fn file_scrubber_supported() -> bool {
+    cfg!(target_os = "macos")
+}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn file_scrubber_support_matches_target_os() {
+        assert_eq!(super::file_scrubber_supported(), cfg!(target_os = "macos"));
+    }
+}

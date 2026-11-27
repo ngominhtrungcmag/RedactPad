@@ -1,5 +1,6 @@
 pub mod commands;
 pub mod detector;
+#[cfg(target_os = "macos")]
 pub mod scrubber;
 pub mod workbench;
 
@@ -45,6 +46,7 @@ pub fn run() -> tauri::Result<()> {
             commands::remove_manual_redaction,
             commands::clear_draft,
             commands::copy_redacted_text,
+            commands::file_scrubber_supported,
             #[cfg(target_os = "macos")]
             commands::scrubber::scrubber_pick_input,
             #[cfg(target_os = "macos")]

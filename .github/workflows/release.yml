@@ -19,6 +19,15 @@ jobs:
           - runner: macos-latest
             target: aarch64-apple-darwin
             args: --target aarch64-apple-darwin
+          - runner: macos-latest
+            target: x86_64-apple-darwin
+            args: --target x86_64-apple-darwin
+          - runner: windows-latest
+            target: ''
+            args: ''
+          - runner: ubuntu-22.04
+            target: ''
+            args: ''
     runs-on: ${{ matrix.runner }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -37,6 +46,9 @@ jobs:
         with:
           workspaces: src-tauri
           key: ${{ matrix.target }}
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev patchelf build-essential libssl-dev libxdo-dev
       - run: pnpm install --frozen-lockfile
       - name: Configure optional macOS signing
         if: runner.os == 'macOS'

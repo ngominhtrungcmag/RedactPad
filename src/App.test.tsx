@@ -2,6 +2,7 @@ import { act, fireEvent, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { expect, it, vi } from 'vitest'
 import App from './App'
+import { tauriScrubberClient } from './scrubberClient'
 import { utf8ByteLength } from './utf8Offsets'
 import { MAX_INPUT_BYTES } from './workbenchClient'
 import type { EffectiveSpan, WorkbenchClient, WorkbenchSnapshot } from './workbenchClient'
@@ -47,6 +48,13 @@ function mockClient() {
     copyRedactedText: vi.fn<WorkbenchClient['copyRedactedText']>()
       .mockImplementation(async (draft_revision, review_revision) => ({ draft_revision, review_revision })),
   }
+}
+
+const supportedScrubber = {
+  ...tauriScrubberClient,
+  isSupported: () => Promise.resolve(true),
+  getSession: async () => null,
+  listenForDrop: async () => () => {},
 }
 
 function deferred() {
@@ -141,10 +149,11 @@ it('supports paste, selection, match actions, copy, and clear by keyboard', asyn
     .mockResolvedValueOnce(withManualRedaction(false, 3))
   client.removeManualRedaction.mockResolvedValue(matched(false, 4))
   const user = userEvent.setup()
-  render(<App client={client} />)
+  render(<App client={client} scrubberClient={supportedScrubber} />)
 
+  const text = await screen.findByRole('button', { name: 'Text' })
   await user.tab()
-  expect(screen.getByRole('button', { name: 'Text' })).toHaveFocus()
+  expect(text).toHaveFocus()
   await user.tab()
   expect(screen.getByRole('button', { name: 'File' })).toHaveFocus()
   await user.tab()
@@ -437,8 +446,8 @@ it('surfaces the oversized PEM warning and rejects an invalid selection without 
 
 it('defaults to Text Workbench and preserves the text draft when switching modes', async () => {
   const user = userEvent.setup()
-  render(<App client={mockClient()} />)
-  const modes = within(screen.getByRole('navigation', { name: 'Workbench mode' }))
+  render(<App client={mockClient()} scrubberClient={supportedScrubber} />)
+  const modes = within(await screen.findByRole('navigation', { name: 'Workbench mode' }))
   const text = modes.getByRole('button', { name: 'Text' })
   const file = modes.getByRole('button', { name: 'File' })
   expect(text).toHaveAttribute('aria-pressed', 'true')
@@ -448,6 +457,28 @@ it('defaults to Text Workbench and preserves the text draft when switching modes
   expect(screen.queryByRole('textbox', { name: 'Source' })).toBeNull()
   await user.click(text)
   expect(source()).toHaveValue(sample)
+})
+
+it.each([
+  ['reports no support', () => Promise.resolve(false)],
+  ['rejects', () => Promise.reject(new Error('Unavailable'))],
+])('keeps the Text Workbench usable when the support check %s', async (_, isSupported) => {
+  const client = mockClient()
+  const scrubberClient = {
+    ...tauriScrubberClient,
+    isSupported: vi.fn(isSupported),
+    listenForDrop: vi.fn(),
+  }
+  render(<App client={client} scrubberClient={scrubberClient} />)
+  await act(async () => { edit(sample) })
+
+  expect(scrubberClient.isSupported).toHaveBeenCalledOnce()
+  expect(screen.queryByRole('navigation', { name: 'Workbench mode' })).toBeNull()
+  expect(screen.queryByRole('button', { name: 'File' })).toBeNull()
+  expect(screen.queryByLabelText('File Scrubber')).toBeNull()
+  expect(scrubberClient.listenForDrop).not.toHaveBeenCalled()
+  expect(source()).toHaveValue(sample)
+  expect(client.analyzeDraft).toHaveBeenCalled()
 })
 
 it('keeps the textarea and its value when switching editor views', async () => {

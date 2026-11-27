@@ -1,0 +1,2 @@
+# Keep fixture bytes unchanged across platform checkouts.
+fixtures/** -text

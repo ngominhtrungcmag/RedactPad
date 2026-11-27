@@ -1,3 +1,5 @@
+#![cfg(target_os = "macos")]
+
 use std::{fs, os::unix::fs::symlink};
 
 use redactpad_lib::scrubber::{open_input_file, ScrubberError};
