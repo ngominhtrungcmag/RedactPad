@@ -46,7 +46,7 @@ export default function FileScrubber({ client, onDrop }: { client: ScrubberClien
   const [alert, setAlert] = useState('')
   const [pollFailed, setPollFailed] = useState(false)
   const requests = useRef({ activeSessionId: null as number | null, latestSessionId: 0, previewRequestId: 0 })
-  const preview = useRef<HTMLDivElement>(null)
+  const preview = useRef<HTMLPreElement>(null)
   const select = useRef<HTMLButtonElement>(null)
   const exportButton = useRef<HTMLButtonElement>(null)
 
@@ -234,69 +234,57 @@ export default function FileScrubber({ client, onDrop }: { client: ScrubberClien
   }
 
   return (
-    <section className="file-scrubber" aria-label="File Scrubber">
-      <div className="panel file-intake">
-        <div className="drop-zone">
-          <div className="file-icon">
-            <svg className="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M11 21H5V3h9l4 4v3m-5-7v5h5M8 11h3m-3 4h2" />
-              <path d="M17 11l4 1.5v3c0 2.5-1.6 4.2-4 5.5-2.4-1.3-4-3-4-5.5v-3L17 11Z" />
-            </svg>
-          </div>
-          <h2>Scrub plain-text files locally</h2>
-          <p className="hint">Streams .log and .txt files directly from disk with bounded memory and writes a separate redacted copy without modifying the original.</p>
-          <button type="button" className="primary" ref={select} aria-disabled={exporting || !!pending} onClick={() => void pickInput()}>
-            Select .log or .txt file
-          </button>
-          <p className="hint">Or drop a .log or .txt file onto this window.</p>
-          <div className="chips">
-            <span className="badge allow">Supported: .log, .txt</span>
-            <span className="badge">v0.2+: .json, .jsonl, .csv, .sql, .env</span>
+    <section className="layout" aria-label="File Scrubber">
+      <div className="stack intake">
+        <section className="panel" aria-label="File picker">
+          <div className="row">
+            <button type="button" ref={select} aria-disabled={exporting || !!pending} onClick={() => void pickInput()}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 16V4m-5 5 5-5 5 5M4 16v4h16v-4" />
+              </svg>
+              Select .log or .txt file
+            </button>
+            <span className="muted">or drop a .log or .txt file</span>
           </div>
           {pending === 'pick' && <p role="status">Choosing a file…</p>}
-        </div>
+          {!session && alert && <p className="error" role="alert">{alert}</p>}
+        </section>
         {session && (
-          <div className="scrubber-file">
-            <div>
-              <h2>{session.displayName}</h2>
-              <p className="hint">{fileSize(session.byteSize)}</p>
+          <section className="panel file-details" aria-labelledby="file-label">
+            <h2 id="file-label">Selected file</h2>
+            <div className="row between">
+              <div>
+                <p>{session.displayName}</p>
+                <p className="muted">{fileSize(session.byteSize)}</p>
+              </div>
+              <button type="button" disabled={exporting || !!pending} onClick={() => {
+                select.current?.focus()
+                void clearFile()
+              }}>Clear file</button>
             </div>
-            <button type="button" disabled={exporting || !!pending} onClick={() => {
-              select.current?.focus()
-              void clearFile()
-            }}>Clear file</button>
-          </div>
+            {alert && <p className="error" role="alert">{alert}</p>}
+            {blocked && (
+              <div className="warning" role="alert">
+                <p>Export is blocked because the file contains candidates that cannot be safely redacted.</p>
+                <ul>{currentPage.warnings.map((warning) => <li key={warning}>{explanations[warning]}</li>)}</ul>
+              </div>
+            )}
+          </section>
         )}
       </div>
 
-      {alert && <p className="error" role="alert">{alert}</p>}
-      {blocked && (
-        <div className="warning" role="alert">
-          <strong>Export is blocked because the file contains candidates that cannot be safely redacted.</strong>
-          <ul>{currentPage.warnings.map((warning) => <li key={warning}>{explanations[warning]}</li>)}</ul>
-        </div>
-      )}
-
-      <div className="panel">
-        <div className="panel-heading">
-          <h2>Redacted preview</h2>
-          <span className="badge">1 bounded page in memory (≤ 256 KiB IPC)</span>
-        </div>
-        <div
-          className="text-view scrubber-preview"
+      <section className="panel file-preview" aria-labelledby="file-preview-label">
+        <h2 id="file-preview-label">Redacted preview</h2>
+        <pre
           role="region"
           aria-label="Redacted preview text"
           aria-busy={loading}
           ref={preview}
           tabIndex={currentPage ? 0 : undefined}
-        >
-          {currentPage ? currentPage.text || 'This file is empty.' : (
-            <p className="hint">{session ? 'No preview available.' : 'Select a file to preview its redacted text.'}</p>
-          )}
-        </div>
+        >{currentPage ? currentPage.text || 'This file is empty.' : session ? 'No preview available.' : 'Choose a file to preview its redacted text.'}</pre>
         {loading && <p role="status">Loading preview…</p>}
         {currentPage && (
-          <div className="actions" aria-label="Preview pagination" role="group">
+          <div className="row" aria-label="Preview pagination" role="group">
             <button type="button" disabled={currentPage.pageIndex === 0 || loading || exporting || !!pending}
               onClick={() => changePage(currentPage.pageIndex - 1)}>Previous page</button>
             <p role="status">Page {currentPage.pageIndex + 1}</p>
@@ -307,27 +295,22 @@ export default function FileScrubber({ client, onDrop }: { client: ScrubberClien
         {session && !currentPage && !loading && (
           <div><button type="button" disabled={exporting || !!pending} onClick={() => changePage(0)}>Retry preview</button></div>
         )}
-      </div>
-
-      <footer className="panel">
-        <div className="panel-heading">
-          <p className="hint">File exports use irreversible markers and cannot be restored.</p>
-          <div className="actions">
-            <button type="button" className="primary" ref={exportButton}
-              disabled={!session || !currentPage || blocked || loading}
-              aria-disabled={!canExport} onClick={() => void exportFile()}>Export redacted copy</button>
-            {runningJobId !== null && (
-              <button type="button" id="cancel-file-export" disabled={pending === 'cancel'} onClick={() => void cancelExport()}>
-                Cancel export
-              </button>
-            )}
-          </div>
+        <div className="row">
+          <button type="button" className="primary" ref={exportButton}
+            disabled={!session || !currentPage || blocked || loading}
+            aria-disabled={!canExport} onClick={() => void exportFile()}>Export redacted copy</button>
+          {runningJobId !== null && (
+            <button type="button" id="cancel-file-export" disabled={pending === 'cancel'} onClick={() => void cancelExport()}>
+              Cancel export
+            </button>
+          )}
         </div>
+        {session && <p className="muted">File exports use irreversible markers and cannot be restored.</p>}
         {pending === 'save' && <p role="status">Choosing an export destination…</p>}
         {pending === 'cancel' && <p role="status">Requesting cancellation…</p>}
         {job && <ExportFeedback job={job} />}
         {pollFailed && <p className="error" role="alert">Could not check export status. Retrying…</p>}
-      </footer>
+      </section>
     </section>
   )
 }

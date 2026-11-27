@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RedactPad wireframes</title>
+<style>
+:root {
+  color-scheme: light dark;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --canvas: #f4f6f9;
+  --surface: #fff;
+  --inset: #f8fafc;
+  --track: #e6ebf1;
+  --text: #0f172a;
+  --secondary: #475569;
+  --muted: #64748b;
+  --border: rgba(15, 23, 42, .11);
+  --border-hover: rgba(15, 23, 42, .20);
+  --control-border: #78879a;
+  --accent: #0b5fff;
+  --accent-hover: #004ee0;
+  --primary: var(--accent);
+  --primary-hover: var(--accent-hover);
+  --focus: #0b50d8;
+  --redact-bg: #fff3e0;
+  --redact-border: #e08e36;
+  --redact-text: #7a3600;
+  --allow-bg: #e6f6ec;
+  --allow-border: #3e9d61;
+  --allow-text: #125230;
+  --error: #b42318;
+  --shadow: 0 1px 2px rgba(15, 23, 42, .08);
+  background: var(--canvas);
+  color: var(--text);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #0d1117;
+    --surface: #151b23;
+    --inset: #0a0e13;
+    --track: #1d242e;
+    --text: #f0f4f8;
+    --secondary: #9aa6b5;
+    --muted: #7d8a99;
+    --border: rgba(240, 246, 252, .11);
+    --border-hover: rgba(240, 246, 252, .20);
+    --control-border: #637183;
+    --accent: #2f81f7;
+    --accent-hover: #4493f8;
+    /* Deeper button blue keeps white labels above 4.5:1. */
+    --primary: #165cbd;
+    --primary-hover: #206ac8;
+    --focus: var(--accent-hover);
+    --redact-bg: rgba(217, 130, 43, .18);
+    --redact-border: rgba(245, 166, 82, .45);
+    --redact-text: #ffd5a8;
+    --allow-bg: rgba(46, 160, 67, .16);
+    --allow-border: rgba(63, 185, 80, .42);
+    --allow-text: #8df09b;
+    --error: #ff8b8b;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .28);
+  }
+}
+
+:root { --foreground: var(--text); }
+:root[data-mau="xam"] {
+  --primary: #343434;
+  --focus: var(--text);
+  --redact-bg: var(--track);
+  --redact-text: var(--text);
+  --allow-bg: var(--inset);
+  --allow-text: var(--text);
+  --error: var(--text);
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-mau="xam"] { --primary: #4a4a4a; }
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; padding-bottom: 88px; }
+[hidden] { display: none !important; }
+button, textarea { font: inherit; color: inherit; }
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 4px 10px;
+  background: var(--surface);
+  border: 1px solid var(--control-border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover:not(:disabled):not(.primary):not([aria-pressed="true"]) { background: var(--track); }
+button:disabled { color: var(--secondary); cursor: default; }
+button:focus-visible, textarea:focus-visible, pre:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+button.primary, .segments button[aria-pressed="true"] {
+  background: var(--primary);
+  border-color: transparent;
+  color: white;
+}
+button.primary:disabled { background: var(--track); color: var(--secondary); }
+button.primary:hover:not(:disabled) { filter: brightness(.92); }
+button svg { width: 15px; height: 15px; flex: none; }
+h2, p, pre, ul { margin: 0; }
+h2 { font-size: 14px; font-weight: 650; }
+.muted { color: var(--secondary); }
+.warning { color: var(--redact-text); }
+.error { color: var(--error); }
+.row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.between { justify-content: space-between; }
+.stack, .layout { display: grid; gap: 12px; align-content: start; min-width: 0; }
+.layout { padding: 16px; align-items: start; }
+[data-wf-block] { position: relative; }
+[data-wf-block]::before {
+  content: attr(data-wf-block);
+  position: absolute;
+  inset: 4px auto auto 7px;
+  font: 11px/1 system-ui, sans-serif;
+  color: var(--secondary);
+  pointer-events: none;
+}
+.topbar {
+  min-height: 48px;
+  padding: 5px 16px 5px 25px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  gap: 20px;
+}
+.segments { display: inline-flex; gap: 2px; padding: 2px; background: var(--track); border-radius: 8px; }
+.segments button { background: transparent; border-color: transparent; min-height: 30px; }
+.panel {
+  min-width: 0;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+  padding: 17px 12px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+.editor, pre {
+  width: 100%;
+  padding: 12px;
+  background: var(--inset);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: 13px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.editor { display: block; min-height: 280px; resize: vertical; }
+.editor::placeholder { color: var(--secondary); }
+pre { min-height: 128px; }
+.preview pre { min-height: 260px; }
+mark.redact { background: var(--redact-bg); color: var(--redact-text); }
+mark.allow { background: var(--allow-bg); color: var(--allow-text); outline: 1px solid var(--allow-border); }
+:root[data-mau="xam"] mark.allow { outline-color: var(--control-border); }
+.matches ul { list-style: none; padding: 0; }
+.matches li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  border-top: 1px solid var(--border);
+  overflow-wrap: anywhere;
+}
+.match-state { font-size: 13px; }
+.file-details { overflow-wrap: anywhere; }
+.file-details .row { border-top: 1px solid var(--border); padding-top: 8px; }
+.file-preview pre { min-height: 390px; }
+
+.layout[data-v="a"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.layout[data-v="b"].text { grid-template-columns: minmax(0, 1fr) minmax(270px, 300px) minmax(0, 1fr); }
+.layout[data-v="b"].text .review, .layout[data-v="c"].text .review { display: contents; }
+.layout[data-v="b"] .preview pre { min-height: 475px; }
+.layout[data-v="c"].text { grid-template-columns: minmax(0, 1fr) minmax(270px, 320px); }
+.layout[data-v="c"] .editor, .layout[data-v="c"] .preview pre { min-height: 360px; }
+.editor-switch { grid-column: 1 / -1; padding-left: 22px; }
+.layout[data-v="c"] .matches { grid-area: 2 / 2; }
+.layout[data-v="c"] .preview, .layout[data-v="c"] .source-column { grid-area: 2 / 1; }
+
+.layout[data-v="b"].file { grid-template-columns: 300px minmax(0, 1fr); }
+.layout[data-v="c"].file .intake { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+
+.wireframe {
+  position: fixed;
+  z-index: 1;
+  right: 12px;
+  bottom: 12px;
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--control-border);
+  border-radius: 8px;
+}
+.wireframe .row { gap: 6px; }
+.wireframe .segments { align-items: center; }
+.wireframe .segments button { min-width: 32px; }
+
+@media (max-width: 760px) {
+  body { padding-bottom: 136px; }
+  .layout[data-v], .layout[data-v].text, .layout[data-v].file,
+  .layout[data-v="c"].file .intake { grid-template-columns: minmax(0, 1fr); }
+  .layout[data-v="c"] .matches,
+  .layout[data-v="c"] .preview,
+  .layout[data-v="c"] .source-column { grid-area: auto; }
+  .layout[data-v="c"] .matches { order: 1; }
+  .layout { padding: 12px; }
+  .wireframe { right: 8px; bottom: 8px; left: 8px; }
+}
+/* ===== THANH CUỘN TỰ ẨN, ÁP CHO CẢ APP. Luật I18. =====
+   Đứng yên thì trong suốt; rê chuột vào vùng cuộn thì hiện mờ; đang cuộn thì
+   đậm hơn (class .is-scrolling do component ScrollbarAutohide gắn vào ĐÚNG phần
+   tử đang cuộn). Ẩn bằng MÀU TRONG SUỐT chứ không bằng `scrollbar-width: none`:
+   bề rộng 4px vẫn giữ chỗ, nên lúc thanh hiện ra nội dung không bị đẩy ngang.
+   Màu lấy từ --foreground nên nền tối tự đảo, không cần khai lại.
+   Nguồn: dự án thật, chủ dự án chốt.
+
+   ⚠️ Màu thumb đi qua BIẾN --scrollbar-thumb đặt trên chính khung cuộn, không
+   viết `*:hover::-webkit-scrollbar-thumb`. Chrome không vẽ lại thumb khi selector
+   :hover nằm trước pseudo thanh cuộn: rê vào không hiện, phải cuộn mới hiện. Đổi
+   biến trên phần tử thì Chrome vẽ lại ngay. `* { --scrollbar-thumb: transparent }` đặt lại trên TỪNG phần tử, để
+   khung cha đang được rê không truyền biến xuống khung cuộn con bên cạnh.
+   KHÔNG thêm `transition` vào rule `*` này: CSS nằm ngoài @layer thắng mọi
+   utility của Tailwind v4, một dòng `* { transition }` là xoá hết `transition-*`
+   trong app. Thanh cuộn hiện tức thì là đủ. */
+* { --scrollbar-thumb: transparent; }
+*:hover { --scrollbar-thumb: color-mix(in srgb, var(--foreground) 16%, transparent); }
+.is-scrolling { --scrollbar-thumb: color-mix(in srgb, var(--foreground) 28%, transparent); }
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: color-mix(in srgb, var(--foreground) 40%, transparent); }
+
+/* Firefox. ⚠️ PHẢI nằm trong @supports: từ Chrome 121, phần tử có
+   scrollbar-width/scrollbar-color là Chrome BỎ QUA toàn bộ ::-webkit-scrollbar
+   và vẽ thanh "thin" gốc ~8-11px chiếm chỗ. Để trần thì bản 4px ở trên chỉ còn
+   chạy trên Safari. */
+@supports not selector(::-webkit-scrollbar) {
+  * { scrollbar-width: thin; scrollbar-color: transparent transparent; }
+  *:hover { scrollbar-color: color-mix(in srgb, var(--foreground) 18%, transparent) transparent; }
+  .is-scrolling { scrollbar-color: color-mix(in srgb, var(--foreground) 28%, transparent) transparent; }
+}
+/* ===================================================== */
+
+/* Ẩn HẲN, không bao giờ hiện: chỉ cho hàng chip / tab cuộn ngang, nơi thanh
+   cuộn dưới đáy hàng trông như lỗi. Máy có chuột thì hàng đó phải có nút mũi
+   tên hai đầu (responsive.md, sau R10). Vùng cuộn dọc (sidebar, danh sách, modal)
+   thì KHÔNG dùng, để thanh tự ẩn ở trên lo. */
+.scrollbar-clean {
+  scrollbar-width: none;
+}
+.scrollbar-clean::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chữ mảnh và sạch hơn. Một dòng, đặt một lần cho cả trang. Xem luật T1. */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</style>
+<script defer src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+<header class="topbar row" data-wf-block="1">
+  <strong>RedactPad</strong>
+  <nav class="segments" aria-label="Mode">
+    <button data-man="text">Text</button>
+    <button data-man="file">File</button>
+  </nav>
+</header>
+<main id="workspace" class="layout"></main>
+<aside class="wireframe" aria-label="Wireframe controls">
+  <div class="row">
+    <div class="segments" role="group" aria-label="Layout">
+      <button data-v="a" aria-label="A · Two columns">A</button>
+      <button data-v="b" aria-label="B · Three columns, Khuyên dùng">B</button>
+      <button data-v="c" aria-label="C · Tabbed editor">C</button>
+      <span class="muted">B · Khuyên dùng</span>
+    </div>
+    <div class="segments" role="group" aria-label="Sample data">
+      <button data-tt="rong">Empty</button>
+      <button data-tt="du-lieu">Sample</button>
+    </div>
+    <div class="segments" role="group" aria-label="Color">
+      <button data-mau="xam">Xám</button>
+      <button data-mau="mau">Màu</button>
+    </div>
+  </div>
+</aside>
+<script>
+  const workspace = document.querySelector('#workspace');
+  const choices = { v: ['a', 'b', 'c'], man: ['text', 'file'], tt: ['rong', 'du-lieu'], mau: ['xam', 'mau'] };
+  const url = new URL(location.href);
+  const state = Object.fromEntries(Object.entries(choices).map(([key, values]) => {
+    const value = url.searchParams.get(key);
+    return [key, values.includes(value) ? value : values[0]];
+  }));
+
+  function drawIcons() {
+    if (document.querySelector('i[data-lucide]')) window.lucide?.createIcons();
+  }
+  new MutationObserver(drawIcons).observe(document.body, { childList: true, subtree: true });
+  window.addEventListener('load', drawIcons, { once: true });
+
+  const icon = name => `<i data-lucide="${name}" aria-hidden="true"></i>`;
+  const sample = [
+    ['# Synthetic incident replay · checkout gateway'],
+    ['region=us-east-1'],
+    ['aws_access_key_id=', 'EXAMPLE_ACCESS_KEY_01', 'redact'],
+    ['owner=', 'deploy@example.test', 'allow'],
+    ['db_uri=', 'postgres://demo:example@db.invalid/orders', 'redact'],
+    ['Authorization: Bearer ', 'example.replay.token', 'redact'],
+    ['upstream=', '10.23.4.18', 'allow'],
+    ['webhook_token=', 'example-webhook-0001', 'redact'],
+    ['api_key=', 'example-gateway-key-0001', 'redact'],
+    ['callback=', 'https://example.test/hooks?token=example', 'redact'],
+    ['incident_note=', 'Synthetic escalation note for the replay', 'redact'],
+    ['request_id=demo-20261127-081403'],
+    ['status=502 retry=2 elapsed_ms=321'],
+  ];
+  const source = sample.map(([prefix, value = '']) => prefix + value).join('\n');
+  const highlighted = sample.map(([prefix, value, action]) =>
+    value ? `${prefix}<mark class="${action}">${value}</mark>` : prefix).join('\n');
+  const redacted = sample.map(([prefix, value = '', action]) =>
+    prefix + (action === 'redact' ? '[REDACTED]' : value)).join('\n');
+  const matches = [
+    ['AWS access key', 'Redacted'],
+    ['Email address', 'Allowed'],
+    ['Database URI', 'Redacted'],
+    ['Bearer token', 'Redacted'],
+    ['Private IPv4 address', 'Allowed'],
+    ['Webhook token', 'Redacted'],
+    ['API key', 'Redacted'],
+    ['Callback URL containing an embedded credential in a query parameter', 'Covered by manual'],
+    ['Manual redaction', 'Redacted'],
+  ];
+
+  function textLayout(filled) {
+    const disabled = filled ? '' : 'disabled';
+    return `
+      ${state.v === 'c' ? `<div class="editor-switch" data-wf-block="9">
+        <div class="segments" role="group" aria-label="Editor view">
+          <button data-view="source" aria-controls="source-column" aria-pressed="true">Source</button>
+          <button data-view="preview" aria-controls="text-preview" aria-pressed="false">Preview</button>
+        </div>
+      </div>` : ''}
+      <div class="stack source-column" id="source-column">
+        <section class="panel" data-wf-block="2" aria-labelledby="source-label">
+          <div class="row between">
+            <h2><label id="source-label" for="source-text">Source</label></h2>
+            <span id="byte-count" class="muted">${filled ? '1,284' : '0'} B / 1 MiB</span>
+          </div>
+          <textarea id="source-text" class="editor" aria-describedby="byte-count" spellcheck="false" placeholder="Paste or type text to review">${filled ? source : ''}</textarea>
+          <div class="row">
+            ${filled ? '' : '<button data-load>Load sample</button>'}
+            <button aria-keyshortcuts="Meta+Shift+R Control+Shift+R" ${disabled}>Redact selection</button>
+            <kbd class="muted">⌘⇧R</kbd>
+          </div>
+        </section>
+        <section class="panel" data-wf-block="3" aria-labelledby="highlights-label">
+          <h2 id="highlights-label">Highlighted text</h2>
+          <pre aria-labelledby="highlights-label" tabindex="0">${filled ? highlighted : 'Highlighted matches will appear here.'}</pre>
+        </section>
+      </div>
+      <div class="stack review">
+        <section class="panel matches" data-wf-block="4" aria-labelledby="matches-label">
+          <h2 id="matches-label">Matches</h2>
+          ${filled ? `
+            <p class="muted">6 redacted · 2 allowed · 1 manual</p>
+            <p class="warning">A PEM private key block exceeded 16 KiB and was skipped.</p>
+            <ul>${matches.map(([reason, status]) => {
+              const action = reason === 'Manual redaction' ? 'Remove' : status === 'Allowed' ? 'Redact' : 'Allow';
+              return `<li><div>${reason}<p class="muted match-state">${status}</p></div>
+                <button aria-label="${action} ${reason}" ${status === 'Covered by manual' ? 'disabled' : ''}>${action}</button></li>`;
+            }).join('')}</ul>` : '<p class="muted">Paste text to scan for secrets and personal data.</p>'}
+        </section>
+        <section class="panel preview" id="text-preview" data-wf-block="5" aria-labelledby="preview-label" ${state.v === 'c' ? 'hidden' : ''}>
+          <h2 id="preview-label">Redacted preview</h2>
+          <pre aria-labelledby="preview-label" tabindex="0">${filled ? redacted : 'Redacted text will appear here.'}</pre>
+          <div class="row">
+            <button class="primary" ${disabled}>${icon('copy')}Copy redacted text</button>
+            <button data-clear ${disabled}>${icon('x')}Clear</button>
+          </div>
+          <p class="muted">Unflagged text can still be sensitive — review before sharing.</p>
+        </section>
+      </div>`;
+  }
+
+  const logPages = [
+    `2026-11-27T08:14:03.018Z INFO  gateway started region=us-east-1
+2026-11-27T08:14:03.073Z INFO  loaded upstream checkout.internal
+2026-11-27T08:14:04.181Z INFO  POST /v1/orders request_id=demo-018a
+2026-11-27T08:14:04.183Z DEBUG authorization=Bearer [REDACTED]
+2026-11-27T08:14:04.421Z WARN  upstream timeout elapsed_ms=238
+2026-11-27T08:14:04.581Z INFO  retry=1 status=201 owner=[REDACTED]
+2026-11-27T08:14:05.912Z INFO  GET /healthz status=200 elapsed_ms=3`,
+    `2026-11-27T08:14:06.016Z INFO  POST /v1/orders request_id=demo-03be
+2026-11-27T08:14:06.023Z DEBUG database_uri=[REDACTED]
+2026-11-27T08:14:06.144Z INFO  status=201 elapsed_ms=128`,
+  ];
+
+  function fileLayout(filled) {
+    return `
+      <div class="stack intake">
+        <section class="panel" data-wf-block="6" aria-label="File picker">
+          <div class="row">
+            <button data-load>${icon('upload')}Choose file…</button>
+            <span class="muted">or drop a .log or .txt file</span>
+          </div>
+        </section>
+        ${filled ? `<section class="panel file-details" data-wf-block="7" aria-labelledby="file-label">
+          <h2 id="file-label">Selected file</h2>
+          <div class="row between">
+            <div><p>production-api-gateway-2026-11-27T08-14-03.log</p><p class="muted">48.2 MB</p></div>
+            <button data-clear>Clear file</button>
+          </div>
+          <p class="warning">A PEM private key block is unclosed.</p>
+          <p class="error">Export blocked until the file can be safely redacted.</p>
+        </section>` : ''}
+      </div>
+      <section class="panel file-preview" data-wf-block="8" aria-labelledby="file-preview-label">
+        <h2 id="file-preview-label">Redacted preview</h2>
+        <pre id="file-content" aria-labelledby="file-preview-label" tabindex="0">${filled ? logPages[0] : 'Choose a file to preview its redacted text.'}</pre>
+        ${filled ? `<div class="row" role="group" aria-label="Preview pagination">
+          <button data-page="0" disabled>Previous page</button>
+          <span id="page-label" role="status">Page 1</span>
+          <button data-page="1">Next page</button>
+        </div>` : ''}
+        <div><button class="primary" disabled>Export redacted copy</button></div>
+      </section>`;
+  }
+
+  function applyState() {
+    document.documentElement.dataset.mau = state.mau;
+    for (const [key, value] of Object.entries(state)) {
+      document.querySelectorAll(`button[data-${key}]`).forEach(button => {
+        button.setAttribute('aria-pressed', button.dataset[key] === value);
+      });
+    }
+  }
+
+  function render() {
+    workspace.className = `layout ${state.man}`;
+    workspace.dataset.v = state.v;
+    const filled = state.tt === 'du-lieu';
+    workspace.innerHTML = state.man === 'text' ? textLayout(filled) : fileLayout(filled);
+  }
+
+  function select(key, value) {
+    state[key] = value;
+    for (const [param, choice] of Object.entries(state)) url.searchParams.set(param, choice);
+    history.replaceState(null, '', url);
+    applyState();
+    if (key !== 'mau') render();
+  }
+
+  document.addEventListener('click', event => {
+    const button = event.target.closest('button');
+    if (!button) return;
+    const key = Object.keys(choices).find(param => choices[param].includes(button.dataset[param]));
+    if (key) {
+      select(key, button.dataset[key]);
+    } else if (button.hasAttribute('data-load') || button.hasAttribute('data-clear')) {
+      const clearing = button.hasAttribute('data-clear');
+      select('tt', clearing ? 'rong' : 'du-lieu');
+      workspace.querySelector(state.man === 'text' ? '#source-text' : '[data-load]').focus();
+    } else if (button.dataset.view) {
+      const preview = button.dataset.view === 'preview';
+      document.querySelector('#source-column').hidden = preview;
+      document.querySelector('#text-preview').hidden = !preview;
+      document.querySelectorAll('[data-view]').forEach(tab => tab.setAttribute('aria-pressed', tab === button));
+    } else if (button.dataset.page) {
+      const page = Number(button.dataset.page);
+      document.querySelector('#file-content').textContent = logPages[page];
+      document.querySelector('#page-label').textContent = `Page ${page + 1}`;
+      document.querySelectorAll('[data-page]').forEach(control => { control.disabled = control === button; });
+      document.querySelector('[data-page]:enabled').focus();
+    }
+  });
+
+  applyState();
+  render();
+</script>
+</body>
+</html>

@@ -55,30 +55,13 @@ export default function App({
 
   return (
     <main>
-      <header className="banner">
-        <div>
-          <div className="brand">
-            <svg className="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2.5 21 6v5.5c0 5-3.8 8.2-9 10-5.2-1.8-9-5-9-10V6l9-3.5Z" />
-              <path d="M8 10h8m-8 4h5" />
-            </svg>
-            <h1>RedactPad</h1>
-            <span className="badge allow">100% Offline</span>
-          </div>
-          <p className="hint">Scrub secrets &amp; PII locally before sharing logs, configs, or AI prompts.</p>
-        </div>
-        <nav className="mode-switcher" aria-label="Workbench mode">
-          <button type="button" aria-pressed={mode === 'text'} onClick={() => setMode('text')}>Text Workbench</button>
-          <button type="button" ref={fileMode} aria-pressed={mode === 'file'} onClick={() => setMode('file')}>File Scrubber</button>
+      <header className="topbar row">
+        <h1>RedactPad</h1>
+        <nav className="segments" aria-label="Workbench mode">
+          <button type="button" aria-pressed={mode === 'text'} onClick={() => setMode('text')}>Text</button>
+          <button type="button" ref={fileMode} aria-pressed={mode === 'file'} onClick={() => setMode('file')}>File</button>
         </nav>
       </header>
-      <aside className="safety-notice">
-        <svg className="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
-          <circle cx="12" cy="12" r="9" />
-          <path d="M12 11v5m0-8h.01" />
-        </svg>
-        <p><strong>Unflagged text can still be sensitive</strong> — review flagged matches and unflagged text before sharing.</p>
-      </aside>
       <div hidden={mode !== 'text'}><TextWorkbench client={client} /></div>
       <div hidden={mode !== 'file'}><FileScrubber client={scrubberClient} onDrop={showDrop} /></div>
     </main>
@@ -86,6 +69,8 @@ export default function App({
 }
 
 function TextWorkbench({ client }: { client: WorkbenchClient }) {
+  const [view, setView] = useState<'source' | 'preview'>('source')
+  const previewTab = useRef<HTMLButtonElement>(null)
   const editor = useRef<HTMLTextAreaElement>(null)
   const selectionControl = useRef<HTMLButtonElement>(null)
   const latestDraftRequestId = useRef(0)
@@ -160,7 +145,10 @@ function TextWorkbench({ client }: { client: WorkbenchClient }) {
         return
       }
       const validated = validateSnapshot(accepted.text, accepted.snapshot.byte_length, next)
-      if (removedControl && document.activeElement === removedControl) selectionControl.current?.focus()
+      if (removedControl && document.activeElement === removedControl) {
+        const focusTarget = previewTab.current?.getAttribute('aria-pressed') === 'true' ? previewTab : selectionControl
+        focusTarget.current?.focus()
+      }
       setAccepted(validated)
       setProcessing('idle')
     } catch {
@@ -200,192 +188,162 @@ function TextWorkbench({ client }: { client: WorkbenchClient }) {
   }
 
   return (
-    <div className="workbench">
-      <div className="workbench-column">
-        <section className="panel source" aria-labelledby="source-label">
-          <div className="panel-heading">
-            <div className="heading-title">
-              <span className="step" aria-hidden="true">1</span>
-              <h2><label id="source-label" htmlFor="source-text">Source text</label></h2>
-            </div>
-            <span id="source-help" className="hint byte-count">{byteCount.toLocaleString()} B / 1 MiB</span>
-          </div>
-          {!draft && (
-            <div>
-              <button type="button" onClick={() => {
-                editor.current?.focus()
-                void changeDraft(SYNTHETIC_SAMPLE)
-              }}>Load synthetic sample</button>
-            </div>
-          )}
-          <textarea
-            id="source-text"
-            ref={editor}
-            value={draft}
-            placeholder="Paste or type text to review"
-            aria-describedby="source-help"
-            autoComplete="off"
-            autoCorrect="off"
-            autoCapitalize="off"
-            spellCheck={false}
-            onChange={(event) => void changeDraft(event.currentTarget.value)}
-            onKeyDown={(event) => {
-              if ((event.metaKey || event.ctrlKey) && event.shiftKey && event.key.toLowerCase() === 'r') {
-                event.preventDefault()
-                redactSelection()
-              }
-            }}
-          />
-          <div className="actions">
-            <button
-              type="button"
-              ref={selectionControl}
-              aria-disabled={!canReview}
-              aria-keyshortcuts="Meta+Shift+R Control+Shift+R"
-              onClick={redactSelection}
-            >
-              Redact selection
-            </button>
-            <span className="hint" aria-hidden="true"><kbd>⌘/Ctrl</kbd> <kbd>⇧</kbd> <kbd>R</kbd></span>
-          </div>
-          <p className="hint">Highlight any missed text above to redact manually.</p>
-        </section>
-
-        <HighlightedText text={accepted?.text ?? ''} snapshot={snapshot} spans={accepted?.highlights} />
+    <div className="layout text-workbench">
+      <div className="editor-switch">
+        <div className="segments" role="group" aria-label="Editor view">
+          <button type="button" aria-controls="source-column" aria-pressed={view === 'source'} onClick={() => setView('source')}>Source</button>
+          <button type="button" ref={previewTab} aria-controls="text-preview" aria-pressed={view === 'preview'} onClick={() => setView('preview')}>Preview</button>
+        </div>
       </div>
 
-      <div className="workbench-column">
-        <section className="panel matches" aria-labelledby="matches-label">
-          <div className="panel-heading">
-            <div className="heading-title">
-              <span className="step" aria-hidden="true">2</span>
-              <h2 id="matches-label">Matches and manual redactions</h2>
+      <div className="stack editor-column">
+        <div className="stack" id="source-column" hidden={view !== 'source'}>
+          <section className="panel" aria-labelledby="source-label">
+            <div className="row between">
+              <h2><label id="source-label" htmlFor="source-text">Source</label></h2>
+              <span id="source-help" className="muted">{`${byteCount.toLocaleString()} B / 1 MiB`}</span>
             </div>
-            {snapshot && (snapshot.matches.length > 0 || snapshot.manual_redactions.length > 0) && (
-              <div className="chips">
-                <span className="badge redact">{snapshot.matches.length - allowedCount} redacted</span>
-                <span className="badge allow">{allowedCount} allowed</span>
-                <span className="badge">{snapshot.manual_redactions.length} manual</span>
-              </div>
-            )}
-          </div>
-          {snapshot?.warnings.includes('OversizedPemBlock') && (
-            <p className="warning">A PEM private key block exceeded 16 KiB and was skipped.</p>
-          )}
-          {snapshot && (snapshot.matches.length > 0 || snapshot.manual_redactions.length > 0) ? (
-            <ul className="match-list">
-              {snapshot.matches.map((match, index) => {
-                const action = match.action === 'redact' ? 'allow' : 'redact'
-                const title = action === 'allow' ? 'Allow' : 'Redact'
-                const partiallyCovered = !match.overridden_by_manual && snapshot.manual_redactions.some(
-                  (manual) => manual.start < match.end && match.start < manual.end,
-                )
-                return (
-                  <li key={match.id}>
-                    <div>
-                      <strong>{match.reason_label}</strong> <code>{match.reason_id}</code>
-                      <span className={`badge ${match.overridden_by_manual ? 'redact' : match.action}`}>
-                        {match.overridden_by_manual ? 'Covered by manual redaction' : match.action === 'redact' ? 'Redacted' : 'Allowed'}
-                      </span>
-                      {partiallyCovered && <span className="badge redact">Partially covered by manual redaction</span>}
-                    </div>
-                    <button
-                      type="button"
-                      aria-label={`${title} ${match.reason_label} (match ${index + 1})`}
-                      aria-disabled={!canReview || match.overridden_by_manual}
-                      onClick={() => {
-                        if (!match.overridden_by_manual) {
-                          void review((revision) => client.setMatchAction(revision, match.id, action))
-                        }
-                      }}
-                    >
-                      {title}
-                    </button>
-                  </li>
-                )
-              })}
-              {snapshot.manual_redactions.map((manual, index) => (
-                <li key={manual.id}>
-                  <div>
-                    <strong>{manual.reason_label}</strong> <code>{manual.reason_id}</code>
-                    <span className="badge redact">Redacted</span>
-                  </div>
-                  <button
-                    type="button"
-                    aria-label={`Remove manual redaction ${index + 1}`}
-                    aria-disabled={!canReview}
-                    onClick={(event) => void review(
-                      (revision) => client.removeManualRedaction(revision, manual.id),
-                      event.currentTarget,
-                    )}
-                  >
-                    Remove
-                  </button>
-                </li>
-              ))}
-            </ul>
-          ) : draft ? (
-            <p className="hint">{progress || (snapshot?.byte_length ? 'No matches found.' : 'Matches will appear after analysis.')}</p>
-          ) : (
-            <div className="detection-overview">
-              <ol className="workflow">
-                <li>Paste a snippet</li>
-                <li>Review and allow or redact</li>
-                <li>Copy redacted output</li>
-              </ol>
-              <h3>Detected automatically (offline)</h3>
-              <div className="chips">
-                <span className="badge">AWS · GitHub · OpenAI · Anthropic · Slack · Stripe</span>
-                <span className="badge">JWT · Bearer &amp; Basic Auth</span>
-                <span className="badge">Database URIs</span>
-                <span className="badge">PEM Private Keys (≤ 16 KiB)</span>
-                <span className="badge">Passwords &amp; Secret Fields</span>
-                <span className="badge">Email · Payment Cards · Labeled Phones</span>
-              </div>
-              <p className="hint">Ordinary UUIDs, Git SHAs, timestamps &amp; semver stay untouched.</p>
+            <textarea
+              className="editor"
+              id="source-text"
+              ref={editor}
+              value={draft}
+              placeholder="Paste or type text to review"
+              aria-describedby="source-help"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="off"
+              spellCheck={false}
+              onChange={(event) => void changeDraft(event.currentTarget.value)}
+              onKeyDown={(event) => {
+                if ((event.metaKey || event.ctrlKey) && event.shiftKey && event.key.toLowerCase() === 'r') {
+                  event.preventDefault()
+                  redactSelection()
+                }
+              }}
+            />
+            <div className="row">
+              {!draft && (
+                <button type="button" onClick={() => {
+                  editor.current?.focus()
+                  void changeDraft(SYNTHETIC_SAMPLE)
+                }}>Load synthetic sample</button>
+              )}
+              <button
+                type="button"
+                ref={selectionControl}
+                aria-disabled={!canReview}
+                aria-keyshortcuts="Meta+Shift+R Control+Shift+R"
+                onClick={redactSelection}
+              >
+                Redact selection
+              </button>
+              <kbd className="muted" aria-hidden="true">⌘/Ctrl⇧R</kbd>
             </div>
-          )}
-        </section>
+          </section>
 
-        <section className="panel preview" aria-labelledby="preview-label">
-          <div className="panel-heading">
-            <div className="heading-title">
-              <span className="step" aria-hidden="true">3</span>
-              <h2 id="preview-label">Redacted preview</h2>
-            </div>
-            <span className={`badge${canReview && !copying ? ' allow' : ''}`}>
-              {copying ? 'Copying…' : canReview ? 'Ready to copy' : progress || (draft ? 'Review unavailable' : 'Awaiting source')}
-            </span>
-          </div>
-          <div
-            className="text-view"
+          <HighlightedText text={accepted?.text ?? ''} snapshot={snapshot} spans={accepted?.highlights} />
+        </div>
+
+        <section className="panel preview" id="text-preview" aria-labelledby="preview-label" hidden={view !== 'preview'}>
+          <h2 id="preview-label">Redacted preview</h2>
+          <pre
             role="region"
             aria-label="Preview text"
             tabIndex={snapshot?.byte_length ? 0 : undefined}
-          >
-            {snapshot?.byte_length ? snapshot.redacted_preview : <p className="hint">Your reviewed output will appear here.</p>}
+          >{snapshot?.byte_length ? snapshot.redacted_preview : 'Redacted text will appear here.'}</pre>
+          <div className="row">
+            <button type="button" className="primary" disabled={!canReview} aria-disabled={copying} onClick={() => void copy()}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="8" y="8" width="12" height="12" rx="2" />
+                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+              </svg>
+              Copy redacted text
+            </button>
+            <button type="button" onClick={() => {
+              void changeDraft('', true)
+              previewTab.current?.focus()
+            }}>
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <path d="m6 6 12 12M18 6 6 18" />
+              </svg>
+              Clear
+            </button>
           </div>
-          <footer className="toolbar">
-            <div>
-              {alert && <p className="error" role="alert">{alert}</p>}
-              <p role="status">
-                {progress || (copying ? 'Copying…' : confirmation)}
-              </p>
-            </div>
-            <div className="actions">
-              <button type="button" className="primary" disabled={!canReview} aria-disabled={copying} onClick={() => void copy()}>
-                Copy redacted text
-              </button>
-              <button type="button" onClick={() => {
-                void changeDraft('', true)
-                editor.current?.focus()
-              }}>
-                Clear
-              </button>
-            </div>
-          </footer>
+          <p className="muted"><span>Unflagged text can still be sensitive</span> — review before sharing.</p>
         </section>
+        {alert && <p className="error" role="alert">{alert}</p>}
+        <p className="muted status" role="status">{progress || (copying ? 'Copying…' : confirmation)}</p>
       </div>
+
+      <section className="panel matches" aria-labelledby="matches-label">
+        <h2 id="matches-label">Matches</h2>
+        {snapshot && (snapshot.matches.length > 0 || snapshot.manual_redactions.length > 0) && (
+          <p className="muted">{snapshot.matches.length - allowedCount} redacted · {allowedCount} allowed · {snapshot.manual_redactions.length} manual</p>
+        )}
+        {snapshot?.warnings.includes('OversizedPemBlock') && (
+          <p className="warning">A PEM private key block exceeded 16 KiB and was skipped.</p>
+        )}
+        {snapshot && (snapshot.matches.length > 0 || snapshot.manual_redactions.length > 0) ? (
+          <ul>
+            {snapshot.matches.map((match, index) => {
+              const action = match.action === 'redact' ? 'allow' : 'redact'
+              const title = action === 'allow' ? 'Allow' : 'Redact'
+              const partiallyCovered = !match.overridden_by_manual && snapshot.manual_redactions.some(
+                (manual) => manual.start < match.end && match.start < manual.end,
+              )
+              return (
+                <li key={match.id}>
+                  <div>
+                    {match.reason_label}
+                    <p className="muted match-state">{match.reason_id}</p>
+                    <p className="muted match-state">
+                      {match.overridden_by_manual ? 'Covered by manual redaction' : match.action === 'redact' ? 'Redacted' : 'Allowed'}
+                    </p>
+                    {partiallyCovered && <p className="muted match-state">Partially covered by manual redaction</p>}
+                  </div>
+                  <button
+                    type="button"
+                    aria-label={`${title} ${match.reason_label} (match ${index + 1})`}
+                    aria-disabled={!canReview || match.overridden_by_manual}
+                    onClick={() => {
+                      if (!match.overridden_by_manual) {
+                        void review((revision) => client.setMatchAction(revision, match.id, action))
+                      }
+                    }}
+                  >
+                    {title}
+                  </button>
+                </li>
+              )
+            })}
+            {snapshot.manual_redactions.map((manual, index) => (
+              <li key={manual.id}>
+                <div>
+                  {manual.reason_label}
+                  <p className="muted match-state">{manual.reason_id}</p>
+                  <p className="muted match-state">Redacted</p>
+                </div>
+                <button
+                  type="button"
+                  aria-label={`Remove manual redaction ${index + 1}`}
+                  aria-disabled={!canReview}
+                  onClick={(event) => void review(
+                    (revision) => client.removeManualRedaction(revision, manual.id),
+                    event.currentTarget,
+                  )}
+                >
+                  Remove
+                </button>
+              </li>
+            ))}
+          </ul>
+        ) : draft ? (
+          <p className="muted">{progress || (snapshot?.byte_length ? 'No matches found.' : 'Matches will appear after analysis.')}</p>
+        ) : (
+          <p className="muted">Paste text to scan for secrets and personal data.</p>
+        )}
+      </section>
     </div>
   )
 }
