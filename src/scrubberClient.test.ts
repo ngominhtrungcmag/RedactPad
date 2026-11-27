@@ -28,6 +28,13 @@ it('invokes only the scrubber commands with camelCase identifiers', async () => 
   ])
 })
 
+it('queries File Scrubber support through the platform capability command', async () => {
+  vi.mocked(invoke).mockResolvedValueOnce(true)
+
+  expect(await client.isSupported()).toBe(true)
+  expect(invoke).toHaveBeenLastCalledWith('file_scrubber_supported')
+})
+
 it('subscribes to sanitized drop payloads and returns the unsubscribe function', async () => {
   const unlisten = vi.fn()
   const onDrop = vi.fn()

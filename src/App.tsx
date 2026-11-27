@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import FileScrubber from './FileScrubber'
 import { tauriScrubberClient } from './scrubberClient'
 import type { ScrubberClient } from './scrubberClient'
@@ -45,25 +45,44 @@ export default function App({
   scrubberClient = tauriScrubberClient,
 }: { client?: WorkbenchClient; scrubberClient?: ScrubberClient } = {}) {
   const [mode, setMode] = useState<'text' | 'file'>('text')
+  const [fileSupported, setFileSupported] = useState<boolean | null>(null)
   const fileMode = useRef<HTMLButtonElement>(null)
 
+  useEffect(() => {
+    let active = true
+    const updateSupport = (supported: boolean) => {
+      if (!active) return
+      setFileSupported(supported)
+      if (!supported) setMode('text')
+    }
+
+    void scrubberClient.isSupported().then(updateSupport, () => updateSupport(false))
+    return () => { active = false }
+  }, [scrubberClient])
+
   const showDrop = useCallback(() => {
-    const wasOnTextWorkbench = fileMode.current?.getAttribute('aria-pressed') === 'false'
+    const button = fileMode.current
+    if (!button) return
+    const wasOnTextWorkbench = button.getAttribute('aria-pressed') === 'false'
     setMode('file')
-    if (wasOnTextWorkbench) fileMode.current?.focus()
+    if (wasOnTextWorkbench) button.focus()
   }, [])
 
   return (
     <main>
       <header className="topbar row">
         <h1>RedactPad</h1>
-        <nav className="segments" aria-label="Workbench mode">
-          <button type="button" aria-pressed={mode === 'text'} onClick={() => setMode('text')}>Text</button>
-          <button type="button" ref={fileMode} aria-pressed={mode === 'file'} onClick={() => setMode('file')}>File</button>
-        </nav>
+        {fileSupported === true && (
+          <nav className="segments" aria-label="Workbench mode">
+            <button type="button" aria-pressed={mode === 'text'} onClick={() => setMode('text')}>Text</button>
+            <button type="button" ref={fileMode} aria-pressed={mode === 'file'} onClick={() => setMode('file')}>File</button>
+          </nav>
+        )}
       </header>
       <div hidden={mode !== 'text'}><TextWorkbench client={client} /></div>
-      <div hidden={mode !== 'file'}><FileScrubber client={scrubberClient} onDrop={showDrop} /></div>
+      {fileSupported === true && (
+        <div hidden={mode !== 'file'}><FileScrubber client={scrubberClient} onDrop={showDrop} /></div>
+      )}
     </main>
   )
 }

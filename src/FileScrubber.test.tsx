@@ -16,6 +16,7 @@ function page(pageIndex = 0, text = literal): PreviewPage {
 function setup(initialSession: typeof file | null = null) {
   let onDrop!: (value: ScrubberDrop) => void
   const client = {
+    isSupported: () => Promise.resolve(true),
     pickInput: vi.fn<ScrubberClient['pickInput']>().mockResolvedValue(file),
     getSession: vi.fn<ScrubberClient['getSession']>().mockResolvedValueOnce(initialSession).mockResolvedValue(file),
     getPreviewPage: vi.fn<ScrubberClient['getPreviewPage']>()
@@ -38,7 +39,7 @@ const button = (name: string) => screen.getByRole('button', { name })
 const preview = () => screen.getByRole('region', { name: 'Redacted preview text' })
 
 async function open(user: ReturnType<typeof userEvent.setup>) {
-  await user.click(button('File'))
+  await user.click(await screen.findByRole('button', { name: 'File' }))
   await user.click(button('Select .log or .txt file'))
   await screen.findByText(literal)
 }
@@ -79,6 +80,7 @@ it('switches modes for a sanitized drop and ignores a superseded preview respons
   const { client, drop } = setup()
   let resolve!: (value: PreviewPage) => void
   client.getPreviewPage.mockImplementationOnce(() => new Promise((complete) => { resolve = complete }))
+  await screen.findByRole('button', { name: 'File' })
   drop(file)
   expect(await screen.findByText('Loading preview…')).toBeVisible()
   drop({ ...file, sessionId: 2, displayName: 'new.txt' })
@@ -151,6 +153,7 @@ it('keeps the file when the save dialog is dismissed', async () => {
 
 it('supports tab, Enter and Space through mode switching, selection, pagination, export, cancel and clear', async () => {
   const { user, client } = setup()
+  await screen.findByRole('button', { name: 'File' })
   await user.tab()
   expect(button('Text')).toHaveFocus()
   await user.tab()
@@ -218,7 +221,7 @@ it('resumes polling and cancels an export restored on reload', async () => {
   client.getExportStatus.mockResolvedValue(restoredJob)
   client.cancelExport.mockResolvedValue({ ...restoredJob, state: 'Cancelled', cleanupWarning: false })
 
-  await user.click(button('File'))
+  await user.click(await screen.findByRole('button', { name: 'File' }))
   const cancel = await screen.findByRole('button', { name: 'Cancel export' })
   expect(cancel).toBeEnabled()
   expect(button('Clear file')).toBeDisabled()
@@ -235,7 +238,7 @@ it('re-enables actions when a restored export finishes during polling', async ()
   const { client, user } = setup({ ...file, hasActiveExport: true, activeJobId: 42 })
   client.getExportStatus.mockResolvedValue({ ...restoredJob, state: 'Published' })
 
-  await user.click(button('File'))
+  await user.click(await screen.findByRole('button', { name: 'File' }))
   expect(await screen.findByText('Redacted copy exported.')).toBeVisible()
   expect(client.getExportStatus).toHaveBeenCalledWith(42)
   expect(button('Clear file')).toBeEnabled()

@@ -11,9 +11,14 @@ and implementation brief.
 
 ## Install
 
-Download `RedactPad_<version>_aarch64.dmg` from [GitHub Releases](https://github.com/ngominhtrungcmag/RedactPad/releases).
+Download an installer for your platform from [GitHub Releases](https://github.com/ngominhtrungcmag/RedactPad/releases).
 
-- **macOS on Apple silicon** — Open the disk image and drag RedactPad to Applications.
+- **macOS on Apple silicon** — Download `*_aarch64.dmg`, open it, and drag RedactPad to Applications.
+- **macOS on Intel** — Download `*_x64.dmg`, open it, and drag RedactPad to Applications.
+- **Windows** — Download `*_x64-setup.exe` and run it. If SmartScreen appears, choose **More info** → **Run anyway**.
+- **Linux** — Install the `.deb` with `sudo apt install ./RedactPad_*_amd64.deb`, or make the `.AppImage` executable with `chmod +x` and run it.
+
+File Scrubber (.log/.txt files) is available on macOS only; Windows and Linux include the Text Workbench.
 
 Builds are currently unsigned. On macOS, right-click RedactPad in
 Applications and choose **Open** if Gatekeeper offers that option, or run
@@ -81,7 +86,7 @@ operation and process-attributed network checks. See [Security](SECURITY.md).
 - Parser-backed JSONL, JSON, CSV, SQL, and dotenv support.
 - Consistent SQL pseudonyms informed by the dialect and schema.
 - A CLI with shared `.redactpad.toml` configuration.
-- Windows and Linux packages.
+- File Scrubber on Windows and Linux.
 
 OCR, local ML/NER, live proxying, and cloud sync are outside v0.1.
 

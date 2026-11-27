@@ -41,6 +41,7 @@ export type ExportJobSnapshot = { jobId: number; sessionId: number } & (
 export type ScrubberDrop = ScrubberSessionSummary | ScrubberCommandError
 
 export interface ScrubberClient {
+  isSupported(): Promise<boolean>
   pickInput(): Promise<ScrubberSessionSummary | null>
   getSession(): Promise<ScrubberSessionSummary | null>
   getPreviewPage(sessionId: number, pageIndex: number): Promise<PreviewPage>
@@ -52,6 +53,7 @@ export interface ScrubberClient {
 }
 
 export const tauriScrubberClient: ScrubberClient = {
+  isSupported: () => invoke<boolean>('file_scrubber_supported'),
   pickInput: () => invoke('scrubber_pick_input'),
   getSession: () => invoke('scrubber_get_session'),
   getPreviewPage: (sessionId, pageIndex) => invoke('scrubber_get_preview_page', { sessionId, pageIndex }),
